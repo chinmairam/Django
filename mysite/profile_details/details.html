@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+     {% extends 'create.html' %}
+     <CENTER>
+     {% for form in
+     <h1>Welcome to Profile Page<br>Hello {{ form.fname }}</h1>
+     <!-- <img src="{{ user_pr.display_picture.url }}" height="100px" width="100px"> -->
+     <p>
+         <!-- {{ user_pr.display_picture.url }}<br> -->
+         Your address is {{ form.address }}
+         Your age is {{ form.age }}
+     </p>
+     </CENTER>
+</body>
+</html>

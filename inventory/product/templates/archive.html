@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<body>
+<!-- Displaying product details in Browser -->
+<h1>Latest Products</h1>
+{% for result in res %}
+    <h3>ID: {{ result.product_id }}</h3>
+    <p>Product Name: {{ result.product_name }}</p>
+    <p>Quantity: {{ result.qty }}</p>
+    <hr>
+{% endfor %}
+</body>
+</html>

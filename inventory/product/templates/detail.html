@@ -1,0 +1,11 @@
+<!-- Details of product based on product id -->
+{% if product.pk is 1 %}
+<h1>{{product.product_name}}</h1>
+<h2>{{product.qty}}</h2>
+{% elif course.pk is 2 %}
+<h1>{{product.product_name}}</a></h1>
+<h2>{{product.qty}}</h2>
+{% else %}
+<h1>{{product.product_name}}</h1>
+<h2>{{product.qty}}</h2>
+{% endif %}
